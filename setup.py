@@ -26,6 +26,9 @@ setup(
     long_description=fread('README.rst'),
     license='BSD',
     packages=['mistune_contrib'],
+    install_requires=[
+        "pyyaml>=3.11"
+    ],
     zip_safe=False,
     platforms='any',
     tests_require=['nose'],

@@ -25,6 +25,17 @@ blank-value:
 Date: 2016-03-30
 ---
 # Hello World
+""",
+    """---
+Title: Hello World
+Authors: 
+    - Waylan Limberg
+    - John Doe
+blank-value: 
+Date: 2016-03-30
+---
+# Hello World
+---------
 """
 ]
 

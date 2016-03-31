@@ -43,7 +43,7 @@ def parse(text):
     """
     if text[0:3] != '---':
         return {}, text
-    meta_text = META_END.split(text[3:])
+    meta_text = META_END.split(text[3:], 1)
     # meta_text: ['title: xx', '---', '\n# xxx']
     if len(meta_text) != 3:
         return {}, text
